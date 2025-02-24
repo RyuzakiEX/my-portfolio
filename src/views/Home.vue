@@ -37,7 +37,7 @@
     import ContactMe from '../components/ContactMe.vue';
     import ExperienceCard from '../components/ExperienceCard.vue';
     
-    import profileImage from '@/assets/profile/image.JPEG';
+    import profileImage from '@/assets/profile/image.jpg';
     
     export default defineComponent({
         components: {
@@ -67,7 +67,6 @@
     min-height: 100vh;
     }
 
-    /* Hero Section */
     .hero-section {
     display: flex;
     justify-content: center;
@@ -83,7 +82,6 @@
     box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.3);
     }
 
-    /* Profile Photo */
     .profile-photo {
     border-radius: 50%;
     width: 250px; 
@@ -126,7 +124,6 @@
     opacity: 0.8;
     }
 
-    /* Experience Section */
     .experience-section {
     padding: 100px 20px;
     width: 100%;
